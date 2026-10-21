@@ -39,4 +39,4 @@ These binaries are used to spawn a separate Node.js process for Whisper transcri
 
 ## Version
 
-Currently using Node.js v22.17.0 LTS binaries.
+Currently using Node.js v22.23.4 LTS binaries.

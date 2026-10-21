@@ -68,8 +68,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          # 24.2 to at least 24.6 (atm of writing this) has issues with symlink deref in nested directories
-          node-version: '24.1.0'
+          node-version: '24.22.1'
           cache: 'pnpm'
 
       - name: Install Vulkan SDK
